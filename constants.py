@@ -100,6 +100,7 @@ BUILD_VIEW = {"urls": ["http://cv.jenkins.couchbase.com/view/scheduled-unit-test
               "bucket": "build"}
 
 VIEWS = [SERVER_VIEW, BUILD_VIEW]
+
 BUILDER_URLS = ["http://server.jenkins.couchbase.com/job/couchbase-server-build/",
                 "http://server.jenkins.couchbase.com/job/watson-build/"]
 
